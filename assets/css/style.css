@@ -1,0 +1,85 @@
+.container {
+    background-color:  #F5F5F5;
+    height: 300px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #696969;
+    text-align: center;
+    font-size:  60px;
+    padding-bottom: 20px;
+}
+
+.question {
+    font-size: 18px;
+    padding: 5px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    display: none;
+}
+
+.answer-button {
+    
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    background-color: 		#FFEFD5;
+}
+
+#reset {
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    background-color: 		#FFEFD5;
+}
+
+
+p {
+    text-align: center;
+    font-size: 26px;
+}
+
+body {
+    background-image: url("../images/helmets.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quiz {
+    display: none;
+    text-align: center;
+}
+
+#results {
+    display: none;
+}
+
+#submit {
+    display: none;
+}
+
+#remaining {
+    display: none;
+    padding-bottom: 30px;
+    color: #5F9EA0;
+}
+
+#start {
+    margin: auto;
+    padding: 30px 50px 30px 50px;
+    background-color: silver;
+    color: black;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: black;
+}
+
+#startDiv {
+    text-align: center;
+}
