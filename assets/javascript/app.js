@@ -26,7 +26,7 @@ $(document).ready(function() {
             correctAnswer: "Guthrum"
         },
         {
-            question: "Which of these cities was one a Viking town?",
+            question: "Which of these cities was once a Viking town?",
             answers: ["Brighton","Nottingham","Winchester"],
             correctAnswer: "Nottingham"
         },
@@ -118,9 +118,9 @@ $(document).ready(function() {
             $("#quiz").html("<h2 id=right>YOU GOT IT RIGHT!</h2>");
             $("#right").css("color", "	#32CD32");
             if(game.currentQuestion==questions.length-1){
-                setTimeout(game.results, 3*1000);
+                setTimeout(game.results, 2*1000);
             } else {
-                setTimeout(game.nextQuestion, 3*1000);
+                setTimeout(game.nextQuestion, 2*1000);
             }
         }, // closes answeredCorrectly method
 
